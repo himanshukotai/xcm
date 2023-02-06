@@ -3,7 +3,7 @@ import "./App.css";
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-function Header() {}
+// function Header() {}
 function App() {
   return (
     <div className="App">
