@@ -1,0 +1,53 @@
+.bgcolor {
+    background-color: #FF5757;
+}
+.intro-text{
+    
+    margin-top:200px;
+ 
+}
+.container-set{
+    text-align: center;
+    margin-top: 15%;
+    margin-left:25%;
+}
+.quotealign{
+    text-align: center;
+    margin-left:25%;
+}
+
+.backgreen{
+    background-color:#304945;
+}
+.shadows{
+    filter: drop-shadow(20px 20px 10px black);
+}
+
+.fadeinRight{
+    animation: fadeinRight 1.6s both;
+}
+@keyframes fadeinRight{
+    0%{
+     opacity:0;
+     transform:translateX(50px)
+    }100%{
+     opacity:1;
+     transform:translateX(0)
+    }
+}
+.fadeinLeft{
+    animation: fadeinLeft 1.6s both;
+}
+@keyframes fadeinLeft{
+    0%{
+     opacity:0;
+     transform:translateX(-50px)
+    }100%{
+     opacity:1;
+     transform:translateX(0)
+    }
+}
+
+
+
+
