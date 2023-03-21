@@ -57,8 +57,8 @@ export default function Home() {
         <div className="col-sm-10 backgreen fadeinLeft">
           <div className="row">
             <div className="col-sm-7 justify-content-start">
-              <h5 className="text-light container-set">“SIIIIIUUUUUUU”</h5>
-              <p className="quotealign text-light">- Cristiano Ronaldo</p>
+              <h5 className="text-light container-set"></h5>
+              <p className="quotealign text-light"></p>
             </div>
             <div className=" col-sm-5 justify-content-end">
               <img src={slide4} className="img-fluid"></img>
