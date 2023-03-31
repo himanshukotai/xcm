@@ -4,6 +4,7 @@ import slide1 from "../../img/socialmedia2.png";
 import slide2 from "../../img/figma.png";
 import slide3 from "../../img/coding.png";
 import slide4 from "../../img/diego.jpg";
+
 export default function Home() {
   return (
     <div className="container-fluid">

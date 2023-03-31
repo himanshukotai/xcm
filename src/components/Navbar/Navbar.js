@@ -1,14 +1,16 @@
 import Logo from "../../img/XCM_logo.jpg";
 import "./Navbar.css";
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg color-nav row">
       <div className="container-fluid">
         <div className="col">
-          <a className="navbar-brand" href="/">
+          <Link to="/" className="navbar-brand">
             <img src={Logo} alt="logo" className="logo-size" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -47,7 +49,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#Contact">
+              <a className="nav-link" href="/contact">
                 Contact
               </a>
             </li>
