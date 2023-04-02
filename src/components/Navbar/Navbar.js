@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../../img/XCM_logo.jpg";
 import "./Navbar.css";
 import React, { Component } from "react";
@@ -6,9 +7,9 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg color-nav row">
       <div className="container-fluid">
         <div className="col">
-          <a className="navbar-brand" href="/">
+          <NavLink className="navbar-brand" to="/">
             <img src={Logo} alt="logo" className="logo-size" />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,29 +28,29 @@ export default function Navbar() {
         >
           <ul className="navbar-nav ">
             <li className="nav-item ">
-              <a className="nav-link active" aria-current="page" href="/">
+              <NavLink className="nav-link active" aria-current="page" to="/">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#Showcase">
+              <NavLink className="nav-link" to="/Showcase">
                 Showcase
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <a className="nav-link " href="#Services">
+              <NavLink className="nav-link " to="/Services">
                 Services
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#About">
+              <NavLink className="nav-link" to="/About">
                 About
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#Contact">
+              <NavLink className="nav-link" to="/Contact">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

@@ -1,5 +1,6 @@
 .bgcolor {
     background-color: #FF5757;
+    height: 50vh;
 }
 .intro-text{
     
@@ -7,7 +8,6 @@
  
 }
 .container-set{
-    text-align: center;
     margin-top: 15%;
     margin-left:25%;
 }
@@ -25,6 +25,20 @@
 
 .fadeinRight{
     animation: fadeinRight 1.6s both;
+}
+.fadeinTop{
+    animation: fadeinTop 0.5s both;
+}
+
+
+@keyframes fadeinTop{
+    0%{
+     opacity:0;
+     transform:translateY(-50px)
+    }100%{
+     opacity:1;
+     transform:translateY(0)
+    }
 }
 @keyframes fadeinRight{
     0%{
@@ -47,6 +61,36 @@
      transform:translateX(0)
     }
 }
+.whatweoffer{
+    height: 500px;
+}
+.iconsize{
+    width: 100px ;
+    height:100px ;
+}
+.element{
+    background-image: url(../../img/webdev.svg);
+    background-size: 2em 25%;
+    
+  }
+  .element1{
+    background-image: url(../../img/analytics.svg);
+    background-size: 2em 25%;
+  }
+  .element2{
+    background-image: url(../../img/copywriting.png);
+    background-size: 2em 25%;
+  }
+  .element3{
+    background-image: url(../../img/mediamanagement.svg);
+    background-size: 2em 25%;
+  }
+
+  .div-height{
+   
+  }
+  
+
 
 
 
