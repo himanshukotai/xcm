@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "471fe672f402f17bbd8e",
-    "url": "/static/css/main.c86dbcfa.chunk.css"
+    "revision": "12490ad3855fbcfcbcb3",
+    "url": "/static/css/main.57931ebe.chunk.css"
   },
   {
-    "revision": "471fe672f402f17bbd8e",
-    "url": "/static/js/main.471fe672.chunk.js"
+    "revision": "12490ad3855fbcfcbcb3",
+    "url": "/static/js/main.12490ad3.chunk.js"
   },
   {
-    "revision": "9f214d70663891210c4f",
-    "url": "/static/js/1.9f214d70.chunk.js"
+    "revision": "a9bf6fcba8df25954df2",
+    "url": "/static/js/1.a9bf6fcb.chunk.js"
   },
   {
-    "revision": "f86e40daaad090f00e8a",
-    "url": "/static/css/2.b2b92986.chunk.css"
+    "revision": "f2f71f03f30a491e508b",
+    "url": "/static/css/2.9a76c80c.chunk.css"
   },
   {
-    "revision": "f86e40daaad090f00e8a",
-    "url": "/static/js/2.f86e40da.chunk.js"
+    "revision": "f2f71f03f30a491e508b",
+    "url": "/static/js/2.f2f71f03.chunk.js"
   },
   {
-    "revision": "36cc2bf318d24e6efa20",
-    "url": "/static/js/runtime~main.36cc2bf3.js"
+    "revision": "82cf7bea680336ca788e",
+    "url": "/static/js/runtime~main.82cf7bea.js"
   },
   {
     "revision": "9fce5c3ca7b51584607b225dd9d9e684",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/bootstrap-icons.52196284.woff"
   },
   {
-    "revision": "4ca12182056e35434435553b28d0b323",
+    "revision": "2f554cc1bc008dbb89cb145bb3e7ebf8",
     "url": "/index.html"
   }
 ];

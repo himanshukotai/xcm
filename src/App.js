@@ -10,6 +10,10 @@ import { motion } from "framer-motion/dist/framer-motion";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fab);
 
 function App() {
   return (

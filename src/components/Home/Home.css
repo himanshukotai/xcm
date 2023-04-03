@@ -1,9 +1,9 @@
 .bgcolor {
     background-color: #FF5757;
-    height: 50vh;
+    height: 500px;
+    overflow: hidden;
 }
 .intro-text{
-    
     margin-top:200px;
  
 }
@@ -20,7 +20,7 @@
     background-color:#304945;
 }
 .shadows{
-    filter: drop-shadow(20px 20px 10px black);
+    filter: drop-shadow(5px 5px 5px black);
 }
 
 .fadeinRight{
@@ -68,26 +68,9 @@
     width: 100px ;
     height:100px ;
 }
-.element{
-    background-image: url(../../img/webdev.svg);
-    background-size: 2em 25%;
-    
-  }
-  .element1{
-    background-image: url(../../img/analytics.svg);
-    background-size: 2em 25%;
-  }
-  .element2{
-    background-image: url(../../img/copywriting.png);
-    background-size: 2em 25%;
-  }
-  .element3{
-    background-image: url(../../img/mediamanagement.svg);
-    background-size: 2em 25%;
-  }
 
   .div-height{
-   
+   min-height: 60vh ;
   }
   
 

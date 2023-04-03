@@ -1,8 +1,7 @@
 body{
   margin:0;
   width: 100vw;
-  
-  height: 270vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
