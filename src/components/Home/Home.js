@@ -4,18 +4,15 @@ import slide1 from "../../img/socialmedia2.png";
 import slide2 from "../../img/figma.png";
 import slide3 from "../../img/coding.png";
 import slide4 from "../../img/diego.jpg";
-<<<<<<< HEAD
-=======
 import websvg from "../../img/webdev.svg";
 import copywritepng from "../../img/copywriting.png";
 import mediamanagementsvg from "../../img/mediamanagement.svg";
 import analyticssvg from "../../img/analytics.svg";
 import custombrandpng from "../../img/coffee-cup.png";
-import { motion, AnimatePresence } from "framer-motion/dist/framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import useMeasure from "react-use-measure";
 import "react-bootstrap";
->>>>>>> main
 
 export default function Home() {
   let { ref, inView } = useInView({ threshold: 0.1 });

@@ -5,24 +5,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-<<<<<<< HEAD
-import Contact from "./components/Contact/Contact";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-function App() {
-  return (
-    <div className="App overflow-hidden">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </Router>
-=======
 import ShowcasePage from "./components/Showcase/ShowcasePage";
-import { motion } from "framer-motion/dist/framer-motion";
+import { motion } from "framer-motion";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
@@ -53,7 +37,6 @@ function App() {
           </footer>
         </Router>
       </body>
->>>>>>> main
     </div>
   );
 }

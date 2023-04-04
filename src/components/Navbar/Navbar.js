@@ -9,15 +9,9 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg color-nav row">
       <div className="container-fluid">
         <div className="col">
-<<<<<<< HEAD
-          <Link to="/" className="navbar-brand">
-            <img src={Logo} alt="logo" className="logo-size" />
-          </Link>
-=======
           <NavLink className="navbar-brand" to="/">
             <img src={Logo} alt="logo" className="logo-size" />
           </NavLink>
->>>>>>> main
           <button
             className="navbar-toggler"
             type="button"
@@ -56,11 +50,7 @@ export default function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item ">
-<<<<<<< HEAD
-              <a className="nav-link" href="/contact">
-=======
               <NavLink className="nav-link" to="/Contact">
->>>>>>> main
                 Contact
               </NavLink>
             </li>
