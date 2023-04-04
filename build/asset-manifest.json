@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "main.css": "/static/css/main.bf8b068b.chunk.css",
   "main.js": "/static/js/main.60c1272e.chunk.js",
   "main.js.map": "/static/js/main.60c1272e.chunk.js.map",
@@ -9,13 +10,37 @@
   "static/js/2.22ba9b83.chunk.js.map": "/static/js/2.22ba9b83.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.6f2903f8.js",
   "runtime~main.js.map": "/static/js/runtime~main.6f2903f8.js.map",
+=======
+  "main.css": "/static/css/main.57931ebe.chunk.css",
+  "main.js": "/static/js/main.12490ad3.chunk.js",
+  "main.js.map": "/static/js/main.12490ad3.chunk.js.map",
+  "static/js/1.a9bf6fcb.chunk.js": "/static/js/1.a9bf6fcb.chunk.js",
+  "static/js/1.a9bf6fcb.chunk.js.map": "/static/js/1.a9bf6fcb.chunk.js.map",
+  "static/css/2.9a76c80c.chunk.css": "/static/css/2.9a76c80c.chunk.css",
+  "static/js/2.f2f71f03.chunk.js": "/static/js/2.f2f71f03.chunk.js",
+  "static/js/2.f2f71f03.chunk.js.map": "/static/js/2.f2f71f03.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.82cf7bea.js",
+  "runtime~main.js.map": "/static/js/runtime~main.82cf7bea.js.map",
+>>>>>>> main
   "static/media/XCM_logo.jpg": "/static/media/XCM_logo.9fce5c3c.jpg",
   "static/media/socialmedia2.png": "/static/media/socialmedia2.34f8cfb8.png",
   "static/media/figma.png": "/static/media/figma.86d62a13.png",
   "static/media/coding.png": "/static/media/coding.44a25fba.png",
+<<<<<<< HEAD
   "static/css/main.bf8b068b.chunk.css.map": "/static/css/main.bf8b068b.chunk.css.map",
   "static/css/2.22e8d55e.chunk.css.map": "/static/css/2.22e8d55e.chunk.css.map",
   "index.html": "/index.html",
   "precache-manifest.2c29361237450fec5ca209eb09025b01.js": "/precache-manifest.2c29361237450fec5ca209eb09025b01.js",
+=======
+  "static/media/webdev.svg": "/static/media/webdev.89b67c4b.svg",
+  "static/media/copywriting.png": "/static/media/copywriting.e8fd7a6a.png",
+  "static/media/mediamanagement.svg": "/static/media/mediamanagement.6c3fdc61.svg",
+  "static/media/analytics.svg": "/static/media/analytics.54052e3e.svg",
+  "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.52196284.woff",
+  "static/css/2.9a76c80c.chunk.css.map": "/static/css/2.9a76c80c.chunk.css.map",
+  "static/css/main.57931ebe.chunk.css.map": "/static/css/main.57931ebe.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.89e923f0f4089fe07cda13559e590a44.js": "/precache-manifest.89e923f0f4089fe07cda13559e590a44.js",
+>>>>>>> main
   "service-worker.js": "/service-worker.js"
 }
