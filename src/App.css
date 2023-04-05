@@ -1,7 +1,8 @@
 body {
   margin: 0;
   width: 100vw;
-  height: auto;
+  min-height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -9,3 +10,4 @@ body {
 .content {
   flex-grow: 1;
 }
+
