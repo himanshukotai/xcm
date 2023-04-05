@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="footer bg-dark text-white py-4">
+    <footer className="bg-dark text-white py-4">
       <div className="container">
         <section>
           <div className="row">

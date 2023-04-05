@@ -1,7 +1,7 @@
 body {
   margin: 0;
   width: 100vw;
-  min-height: 100vh;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -10,4 +10,3 @@ body {
 .content {
   flex-grow: 1;
 }
-
