@@ -6,8 +6,9 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  margin-bottom: 80px;
 }
 .content {
   flex-grow: 1;
+  margin-bottom: 80px;
 }
-

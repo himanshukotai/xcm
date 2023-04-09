@@ -6,6 +6,12 @@ import {
   faPhone,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedinIn,
+  faInstagram,
+  faFacebook,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -43,7 +49,7 @@ export default function Footer() {
                         rel="noreferrer"
                         className="text-white text-decoration-none"
                       >
-                        <FontAwesomeIcon icon="fab fa-linkedin-in" /> Linkedin
+                        <FontAwesomeIcon icon={faLinkedinIn} /> Linkedin
                       </a>
                     </li>
                     <li className="my-2">
@@ -53,7 +59,7 @@ export default function Footer() {
                         rel="noreferrer"
                         className="text-white text-decoration-none"
                       >
-                        <FontAwesomeIcon icon="fab fa-instagram" /> Instagram
+                        <FontAwesomeIcon icon={faInstagram} /> Instagram
                       </a>
                     </li>
                   </ul>
@@ -62,14 +68,12 @@ export default function Footer() {
                   <ul className="list-unstyled mb-0">
                     <li className="my-2">
                       <a href="#!" className="text-white text-decoration-none">
-                        <FontAwesomeIcon icon="fab fa-brands fa-square-facebook" />{" "}
-                        Facebook
+                        <FontAwesomeIcon icon={faFacebook} /> Facebook
                       </a>
                     </li>
                     <li className="my-2">
                       <a href="#!" className="text-white text-decoration-none">
-                        <FontAwesomeIcon icon="fab fa-brands fa-square-twitter" />{" "}
-                        Twitter
+                        <FontAwesomeIcon icon={faTwitter} /> Twitter
                       </a>
                     </li>
                   </ul>
