@@ -27,7 +27,7 @@ export default function Footer() {
                   {/* +31 6 57 81 96 38 */}
                 </li>
                 <li className="my-2">
-                  <FontAwesomeIcon icon={faEnvelope} /> charzoxd@gmail.com
+                  <FontAwesomeIcon icon={faEnvelope} /> info@xchrzomarketing.com
                 </li>
                 <li className="my-2">
                   <FontAwesomeIcon icon={faLocationDot} /> Eindhoven,
