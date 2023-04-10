@@ -3,31 +3,52 @@ import "./Contact.css";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  // const apiKey = process.env.REACT_APP_SENDGRID_API_KEY;
 
   const handleSubmit = (e) => {
+    // console.log(apiKey);
     e.preventDefault();
     // Code for sending the message would go here
-    // For now, we'll just show a success message
-    toast.success("Message sent!", {
-      position: "top-right",
-      autoClose: 2000,
-      // hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
-    setEmail("");
-    setName("");
-    setMessage("");
+    emailjs
+      .send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        {
+          from_name: name,
+          from_email: email,
+          message: message,
+        },
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          // For now, we'll just show a success message
+          toast.success("Message sent!", {
+            position: "top-right",
+            autoClose: 2000,
+            // hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
+          setEmail("");
+          setName("");
+          setMessage("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
-
   return (
     <Container className="mt-5">
       <ToastContainer />
