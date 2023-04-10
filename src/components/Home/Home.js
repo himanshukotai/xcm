@@ -127,6 +127,7 @@ export default function Home() {
               animate="visible"
               exit="exit"
               variants={fadeInAnimation}
+              className="services-container"
             >
               <div className="row text-center m-5">
                 <h1>What services we offer?</h1>

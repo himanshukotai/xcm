@@ -1,80 +1,83 @@
 .bgcolor {
-    background-color: #FF5757;
-    height: 500px;
-    overflow: hidden;
+  background-color: #ff5757;
+  height: 500px;
+  overflow: hidden;
 }
-.intro-text{
-    margin-top:200px;
- 
+.intro-text {
+  margin-top: 200px;
 }
-.container-set{
-    margin-top: 15%;
-    margin-left:25%;
+.container-set {
+  margin-top: 15%;
+  margin-left: 25%;
 }
-.quotealign{
-    text-align: center;
-    margin-left:25%;
-}
-
-.backgreen{
-    background-color:#304945;
-}
-.shadows{
-    filter: drop-shadow(5px 5px 5px black);
+.quotealign {
+  text-align: center;
+  margin-left: 25%;
 }
 
-.fadeinRight{
-    animation: fadeinRight 1.6s both;
+.backgreen {
+  background-color: #304945;
 }
-.fadeinTop{
-    animation: fadeinTop 0.5s both;
-}
-
-
-@keyframes fadeinTop{
-    0%{
-     opacity:0;
-     transform:translateY(-50px)
-    }100%{
-     opacity:1;
-     transform:translateY(0)
-    }
-}
-@keyframes fadeinRight{
-    0%{
-     opacity:0;
-     transform:translateX(50px)
-    }100%{
-     opacity:1;
-     transform:translateX(0)
-    }
-}
-.fadeinLeft{
-    animation: fadeinLeft 1.6s both;
-}
-@keyframes fadeinLeft{
-    0%{
-     opacity:0;
-     transform:translateX(-50px)
-    }100%{
-     opacity:1;
-     transform:translateX(0)
-    }
-}
-.whatweoffer{
-    height: 500px;
-}
-.iconsize{
-    width: 100px ;
-    height:100px ;
+.shadows {
+  filter: drop-shadow(5px 5px 5px black);
 }
 
-  .div-height{
-   min-height: 60vh ;
+.fadeinRight {
+  animation: fadeinRight 1.6s both;
+}
+.fadeinTop {
+  animation: fadeinTop 0.5s both;
+}
+
+@keyframes fadeinTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
   }
-  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeinRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fadeinLeft {
+  animation: fadeinLeft 1.6s both;
+}
+@keyframes fadeinLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.whatweoffer {
+  height: 500px;
+}
+.iconsize {
+  width: 100px;
+  height: 100px;
+}
 
+.div-height {
+  min-height: 60vh;
+}
 
-
-
-
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

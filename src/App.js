@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import ShowcasePage from "./components/Showcase/ShowcasePage";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
