@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Logo from "../../img/XCM_logo.jpg";
+import Logo from "../../img/logo.jfif";
 import "./Navbar.css";
 // import React, { Component } from "react";
 // import { Link } from "react-router-dom";

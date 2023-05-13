@@ -99,8 +99,6 @@
   padding: 20px;
   background-color: #304945;
 
-  -webkit-box-shadow: 5px 5px 10px #304945, -5px -5px 10px #242424;
-          box-shadow: 5px 5px 10px #304945, -5px -5px 10px #242424;
   border-radius: 5px;
   color: white;
   padding: 1.75rem;
