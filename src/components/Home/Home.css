@@ -1,7 +1,8 @@
 .bgcolor {
-  background-color: #ff5757;
-  height: 500px;
-  overflow: hidden;
+  background:
+        linear-gradient(to left top, #304945 15%/*bottom-right color*/, #ff5757  50% /*middle color*/, #ff5757 100% /*top-left color*/);
+  height: 600px;
+  z-index: 9;
 }
 .intro-text {
   margin-top: 200px;
@@ -172,3 +173,24 @@
             transform: translateX(-50%);
   }
 }
+video{
+  position:absolute;
+  top:0;
+  left:0;
+  width:500px;
+  height:20%;
+  z-index: 0;
+  filter: opacity(20%);
+}
+.carousel-fade {
+  .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+  }
+}
+.walkingonwater{
+  width: 50%;
+  height: 50%;
+}
+

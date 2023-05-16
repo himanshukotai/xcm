@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./Home.css";
+import sample from "../../img/video.mp4";
 import slide1 from "../../img/socialmedia2.png";
 import slide2 from "../../img/figma.png";
 import slide3 from "../../img/coding.png";
-import slide4 from "../../img/diego.jpg";
+import slide4 from "../../img/walkingonwater.jfif";
 import websvg from "../../img/webdev.svg";
 import copywritepng from "../../img/copywriting.png";
 import mediamanagementsvg from "../../img/mediamanagement.svg";
@@ -62,8 +63,11 @@ export default function Home() {
   return (
     <div className="container-fluid position-relative overflow-hidden">
       <div className="row  bgcolor">
+        <video className="videoTag" autoPlay loop muted>
+          <source src={sample} type="video/mp4" />
+        </video>
         <div className="col-sm-5 d-flex align-items-center">
-          <div className="fadeinTop text-light text-center">
+          <div className="fadeinTop text-light justify-content-middle">
             <p className="h1">Where Strategy meets Creativity</p>
           </div>
         </div>
@@ -225,8 +229,8 @@ export default function Home() {
         <div className="col-sm-2"></div>
         <div className="col-sm-8 backgreen fadeinTop rounded-bottom">
           <div className="row align-items-center">
-            <div className="col-sm-5">
-              <img src={slide4} className="img-fluid"></img>
+            <div className="col-sm-5 text-center">
+              <img src={slide4} className="walkingonwater"></img>
             </div>
             <div className=" col-sm-7 text-light justify-content-center">
               <p className=" h5 text-light text-fluid fst-italic">
@@ -235,15 +239,6 @@ export default function Home() {
                 different tasks”
               </p>
               <p className="quotealign text-light ">- Charan Nandwani</p>
-              <div className="text-end">
-                <span>
-                  <i class="fa fa-angle-left"></i>
-                </span>
-                <div class="vr"></div>
-                <span>
-                  <i class="fa fa-angle-right"></i>
-                </span>
-              </div>
             </div>
           </div>
         </div>
