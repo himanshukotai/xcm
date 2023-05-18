@@ -27,11 +27,12 @@ opacity: 1;
 
 
 .color-nav {
-    background-color: #FF5757;
+    background-color: #ff5757;
+    z-index: 3;
 }
 
 .logo-size {
-    width: 200px;
+    width: 150px;
     margin-left: 50px;
   }
 
