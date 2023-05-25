@@ -25,12 +25,6 @@ export default function Home() {
         "  Lorem ipsum dolor, sit amet consectetur adipisicing elit Repellendus praesentium labore accusamus sequi, voluptatedebitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit",
     },
     {
-      type: "Google Analytics",
-      image: analyticssvg,
-      description:
-        "  Lorem ipsum dolor, sit amet consectetur adipisicing elit Repellendus praesentium labore accusamus sequi, voluptatedebitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit",
-    },
-    {
       type: "Social Media Copywriting",
       image: copywritepng,
       description:

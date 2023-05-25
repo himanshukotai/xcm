@@ -23,7 +23,7 @@ export default function Footer() {
               <h5 className="text-uppercase fw-bold mb-4">Contact</h5>
               <ul className="list-unstyled mb-0">
                 <li className="my-2">
-                  <FontAwesomeIcon icon={faPhone} /> +31 6 12 34 56 78
+                  <FontAwesomeIcon icon={faPhone} /> +31 657819638
                   {/* +31 6 57 81 96 38 */}
                 </li>
                 <li className="my-2">
